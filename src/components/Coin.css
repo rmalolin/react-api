@@ -67,10 +67,10 @@
   color: #11d811;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 900px) {
   .coin-row {
     width: 100%;
-    max-width: 660px;
+    max-width: 900px;
     display: flex;
     justify-content: space-between;
     padding: 15px 30px;
