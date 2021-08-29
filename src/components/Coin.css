@@ -66,3 +66,31 @@
 .green {
   color: #11d811;
 }
+
+@media screen and (max-width: 460px) {
+  .coin-row {
+    max-width: 460px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+  .coin {
+    font-size: 14px;
+    padding: 25px;
+  }
+
+  .coin-row {
+    border-bottom: none;
+  }
+
+  .coin-price {
+    margin-left: -60px;
+  }
+
+  .coin-symbol,
+  .coin-volume,
+  .coin-percent,
+  .coin-marketcap {
+    display: none;
+  }
+}
